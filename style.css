@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 900;
+}
+
+body{
+    background-color:#00B4D8;
+    background-image:url(./img/think-removebg-preview\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-attachment: fixed;
+    background-position:right;
+    
+}
+
+.toDolist{
+    width:90%;
+    margin-top: 2rem;
+    text-align: center; 
+    margin-right: 25%;
+}
+#title{
+    font-size: 5rem;
+    color: white;
+    border: 3px solid yellow;
+    display: inline;
+    padding: 1rem;
+    border-radius: 15px;
+    outline-style:inset;
+    outline-color: rgb(203, 210, 216);
+    background-color: #BB6464;
+}
+
+.todo-input{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+#input-text{
+    border: 2px solid #C400FF;
+    border-radius: 10px;
+    width: 250px;
+    height: 1.5rem;
+    background-color: #F5F7B2;
+    font-weight: 600; 
+    padding-left: 5px;  
+}
+#input-add{
+    border: 2px solid #F7FD04;
+    border-radius: 5px;
+    width: 5rem;
+    height: 1.5rem;
+    background-color: rgb(33, 44, 194);
+    color:gold  
+}
+#input-add:active{
+    background-color: crimson;
+    color: yellow;
+}
+#input-clear{
+    border: 2px solid rgb(197, 65, 180);
+    border-radius: 5px;
+    width: 6rem;
+    height: 1.5rem;
+    background-color: #C67ACE;
+    color:rgb(0, 255, 200)  
+}
+#input-clear:active{
+    background-color:bisque ;
+    color: indigo;
+}
+p{
+    display: flex;
+    margin-left: 32%;
+    margin-bottom: 0.8%;
+    width:35%;
+    border: 5px solid #F43B86;
+    border-radius: 8px;
+    text-transform:capitalize;
+    padding:5px;
+    background-color: #FFC107;
+    justify-items: center;
+    
+    
+}
+.not{
+    width: 17rem;
+    border: 3px solid yellow;
+    outline-style:inset;
+    outline-color: rgb(203, 210, 216);
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 25px;
+    color:#FFDDCC;
+    background-color: #99154E;
+    display: inline-block;
+    position:fixed;
+    margin-top: 30%;
+
+}
+.not:hover{
+    background-color: #F55C47;
+    color:#1F441E ;
+}
+h6{
+margin-top:30%;
+margin-left: 35rem;
+font-size: 12px;
+display:fixed;
+}
